@@ -1,0 +1,40 @@
+.calculator{
+    width:30vw;
+    height: 70vh;
+    border: 1px solid rgb(rgb(109, 104, 104));
+    margin: auto;
+    position: relative;
+    top: 100px;
+    display: grid;
+    gap: 5px;
+    background-color: aqua;
+    padding: 20px;
+}
+.calculator>.form-group{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    
+}
+
+.calculator>.form-group>button{
+    width: 25%;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    
+}
+.calculator>.form-group>button:hover{
+    background-color: gray;
+}
+.calculator>.form-group>input{
+    width: 100%;
+    font-size: 20px;
+    text-align: end;
+    outline: none;
+    border-radius: 5px;
+
+}
+.btnn{
+    background-color: blue;
+}
